@@ -19,7 +19,7 @@ public class IntervalWorkout {
         System.out.println("Interval Workout STARTS !!!!");
         System.out.println("*****************************");
 
-        for (int i = 1; i < repetitions; i++) {
+        for (int i = 0; i < repetitions; i++) {
 
             System.out.println("============================");
             System.out.println("Round " + i + ": ");
@@ -28,7 +28,7 @@ public class IntervalWorkout {
                 System.out.println(ex.getName());
             }
 
-            if (i < repetitions) {
+            if (i < repetitions - 1) {
                 System.out.println("============================");
                 System.out.println("DO THE BREAK (" + breakTime + " SECONDS)");
             }
